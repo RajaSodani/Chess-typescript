@@ -21,18 +21,18 @@
 
 .modal > .modal-body {
     position: absolute;
-    top: calc(50% - 150px);
-    left: calc(50% - 400px);
+    top: calc(50% - 50px);
+    left: calc(50% - 300px);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 300px;
+    height: 200px;
     width: 600px;
-    background-color: rgba(127, 127, 127, 0.8);
+    background-color: rgba(7, 1, 1, 0.8);
 }
 
 .modal > .modal-body > img {
-    height: 120px;
+    height: 70px;
     padding: 20px;
     border-radius: 50%;
 }
@@ -45,19 +45,20 @@
 .modal > .modal-body > .checkmate-body {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 33px;
 }
 
 .modal > .modal-body > .checkmate-body > span {
-    font-size: 32px;
+    font-size: 35px;
+    color:white;
 }
 
 .modal > .modal-body > .checkmate-body > button {
     background-color: #779556;
     border: none;
     border-radius: 8px;
-    padding: 24px 48px;
-    font-size: 32px;
+    padding: 20px 40px;
+    font-size: 30px;
     color: white;
 }
 
